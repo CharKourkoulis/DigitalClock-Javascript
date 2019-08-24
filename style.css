@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("pattern.jpg");
+}
+
+
+ .main{
+    background: #ccc;
+    width: 400px;
+    margin: 180px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+    border-radius: 80px ;
+    -webkit-border-radius: 80px ;
+    -moz-border-radius: 80px ;
+    -ms-border-radius: 80px ;
+    -o-border-radius: 80px ;
+}
+
+ .badge{
+    width: 140px;
+    background: #e66357;
+    color: white;
+    padding: 13px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 33%;
+    text-align: center;
+    border-radius:  3px;
+    -webkit-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    cursor: pointer;
+}
+
+ .clock{
+    background: #ebebeb;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: orbitron;
+    border-radius: 70px ;
+    -webkit-border-radius: 70px ;
+    -moz-border-radius: 70px ;
+    -ms-border-radius: 70px ;
+    -o-border-radius: 70px ;
+}
+
+.badge2{
+    width: 140px;
+    background: #e66357;
+    color: white;
+    padding: 13px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -8px;
+    left: 33%;
+    text-align: center;
+    border-radius:  3px;
+    -webkit-border-radius:  3px;
+    -moz-border-radius:  3px;
+    -ms-border-radius:  3px;
+    -o-border-radius:  3px;
+    cursor: pointer;
+}
